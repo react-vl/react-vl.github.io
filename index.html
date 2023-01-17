@@ -135,6 +135,42 @@ Particularly, on the zero-shot classification task, compared with CLIP, it achie
   </div>
 </section>
 
+<section class="section">
+  <!-- Results. -->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-six-fifths">
+      <h2 class="title is-3">Method: Retrieval-Augmented Customization</h2>
+    </div>
+  </div>
+  <!-- </div> -->
+  <!--/ Results. -->    
+<div class="container is-max-desktop">
+
+  <div class="columns is-centered">
+    <div class="column is-full-width">
+      <div class="content has-text-justified">
+        <p>
+          Given a downstream visual task, REACT considers a <it>retrieval-then-customization</it> procedure:
+          <ol type="1">
+            <li><b>Retrieval</b>. <span style="font-size: 95%;">Task instruction is augmented with free knowledge from the web (eg, <a href="https://laion.ai/">LAION</a>), without any downstream labelled data</span></li>
+            <li><b>Customization</b>. <span style="font-size: 95%;">A lightweight training process to build customized models from a foundation model</li>
+          </ol>  
+        
+        </p>
+      </div>
+      <img id="teaser" width="79%" src="images/model_tuning_cmp.png">
+      <img id="teaser" width="19%" src="images/gated_sa_module.png">
+      <h1>
+        <p style="font-family:Times New Roman"><b>Illustrative comparisons across different model tuning methods. (a) and (b) are existing baseline tuning methods. For model
+          customization in a target domain, In R<span style="font-size: 80%;">EACT</span>, we found that (c) and (d) work better. One layer of the proposed modularized image encoder in locked-text
+          gated-image tuning is illustrated in right side.</b>
+      </h1>                 
+    </div>
+  </div>
+
+
+</section>
+  
 
 <section class="section">
   <!-- Results. -->
