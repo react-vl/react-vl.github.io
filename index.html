@@ -119,12 +119,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Image-text contrastive learning models such as <a href="https://openai.com/blog/clip/">CLIP</a> have demonstrated strong task transfer ability. 
+            Image-text contrastive learning models such as <a href="https://openai.com/blog/clip/">CLIP</a> and <a href="https://github.com/mlfoundations/open_clip">OpenCLIP</a> have demonstrated strong task transfer ability. 
 The high generality and usability of these visual models  is achieved via a web-scale data collection process to ensure broad concept coverage, followed by expensive pre-training to feed all the knowledge into model weights. 
 Alternatively, we propose <b>R<span style="font-size: 80%;">EACT</span></b>, <b>RE</b>trieval-<b>A</b>ugmented <b>C</b>us<b>T</b>omization, a framework to acquire the relevant web knowledge to build customized visual models for target domains.
-We retrieve the most relevant image-text pairs (~3% of CLIP pre-training data) from the web-scale database as external knowledge, and propose to customize the model by only training new modualized blocks while freezing all the original weights.
+We retrieve the most relevant image-text pairs (~3% of CLIP pre-training data) from the  <a href="https://laion.ai/">web-scale database</a> as external knowledge, and propose to customize the model by only training new modualized blocks while freezing all the original weights.
 The effectiveness of R<span style="font-size: 80%;">EACT</span> is demonstrated via extensive experiments on classification, retrieval, detection and segmentation tasks, including zero, few, and full-shot settings.
-Particularly, on the zero-shot classification task, compared with CLIP, it achieves up to 5.4% improvement on ImageNet and 3.7% improvement on the 20 image classification dataset in <a href="https://computer-vision-in-the-wild.github.io/ELEVATER/">ELEVATER benchmark</a>.
+Particularly, on the zero-shot classification task, compared with CLIP, it achieves up to 5.4% improvement on ImageNet and 3.7% improvement on the 20 image classification datasets in <a href="https://computer-vision-in-the-wild.github.io/ELEVATER/">ELEVATER benchmark</a>.
           </p>
         </div>
       </div>
